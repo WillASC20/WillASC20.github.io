@@ -1,0 +1,157 @@
+/* General */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-color: purple;
+    height:90px;
+}
+.heading{
+    display:inline-block;
+    width: 49%;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 27px;
+    height:65px;
+    color:black;
+}
+.heading:hover{
+    background-color: white;
+    color: purple;
+}
+body{
+    margin: 0;
+}
+.pageTitle{
+    background-color: yellow;
+    padding-bottom: 0px;
+}
+h1{
+    text-align: center;
+    margin: 0;
+
+}
+h2{
+    text-align: center; 
+}
+
+.box_borders{
+    width: auto;
+    background-color: yellow;
+    margin-top: 30px;
+}
+.Borders{
+    background-color:black;
+    border: solid ;
+}
+
+.content_container{
+    display: block;
+    height:100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    margin-top: 0;
+    border-left: solid;
+    border-right: solid;
+    padding-top: 25px;
+}
+
+footer{
+    display: block;
+    height: 75px;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Index.html */
+
+
+.content{
+    display: block;
+    margin-top: 20px;
+}
+
+.main_text_box{
+    display:block;
+    margin-top: 30px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-left: solid;
+    border-right: solid;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    width: 60%;
+    height: 300px;
+   
+}
+
+.bottomborder{
+    display: block;
+    height: 50px;
+    width: 100%;
+}
+
+/* Projects */
+.project_text{
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    border-left: solid;
+    border-right: solid;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    width: 50%;
+    height: 300px;
+}
+
+
+.projectImg{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    float: left;
+    height: 300px;
+    width: 40%;
+    margin-left: 10px;
+}
+img{
+    display: block;
+    height: 300px; 
+    max-width: 100%;
+}
+    
+
+.projContent{
+   display: grid;
+}
+.projectBox{
+    margin-top: 100px;
+    display:block;
+    border:solid;
+    background-color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    margin-bottom: 40px;
+}
+.projectIndiv{
+    display: inline-block;
+    border-right:solid;
+    text-align: center;
+    height: 350px;
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
